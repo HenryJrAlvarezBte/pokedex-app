@@ -198,15 +198,12 @@ p {
 .pokemons {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	grid-gap: 20px;
 	justify-content: center;
-	padding: 20px;
 }
 
 .pokemon-card {
 	background-color: #f8f8f8;
 	border: 1px solid #ddd;
-	border-radius: 8px;
 	padding: 10px;
 	margin: 10px;
 	width: 100%;
@@ -259,8 +256,6 @@ p {
 
 .pokemons__card {
 	background-color: #f8f8f8;
-	border: 1px solid #ddd;
-	border-radius: 8px;
 	padding: 10px;
 	margin: 10px;
 	width: 300px;
@@ -283,7 +278,6 @@ p {
 	width: 250px;
 	height: 250px;
 	object-fit: contain;
-	border: none;
 }
 
 .pokedex__header a {
@@ -807,7 +801,7 @@ button[disabled] {
 		1;
 }
 
-.type--normal .poke__card-header {
+.type--normal .pokemons__card-header {
 	background: linear-gradient(
 		181.51deg,
 		#735259 -6.44%,
@@ -816,7 +810,7 @@ button[disabled] {
 	);
 }
 
-.type--fighting .poke__card-header {
+.type--fighting .pokemons__card-header {
 	background: linear-gradient(
 		176.83deg,
 		#96402a -8.78%,
@@ -825,7 +819,7 @@ button[disabled] {
 	);
 }
 
-.type--flying .poke__card-header {
+.type--flying .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#3a75bb -11.97%,
@@ -834,7 +828,7 @@ button[disabled] {
 	);
 }
 
-.type--poison .poke__card-header {
+.type--poison .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#5b3184 -11.97%,
@@ -843,7 +837,7 @@ button[disabled] {
 	);
 }
 
-.type--ground .poke__card-header {
+.type--ground .pokemons__card-header {
 	background: linear-gradient(
 		179.75deg,
 		#654008 -19.96%,
@@ -852,7 +846,7 @@ button[disabled] {
 	);
 }
 
-.type--rock .poke__card-header {
+.type--rock .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#7e7e7e -11.97%,
@@ -861,7 +855,7 @@ button[disabled] {
 	);
 }
 
-.type--bug .poke__card-header {
+.type--bug .pokemons__card-header {
 	background: linear-gradient(
 		177.56deg,
 		#62db60 -58.92%,
@@ -870,7 +864,7 @@ button[disabled] {
 	);
 }
 
-.type--ghost .poke__card-header {
+.type--ghost .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#323569 -11.97%,
@@ -879,7 +873,7 @@ button[disabled] {
 	);
 }
 
-.type--steel .poke__card-header {
+.type--steel .pokemons__card-header {
 	background: linear-gradient(
 		179.75deg,
 		#5e736c -19.96%,
@@ -888,7 +882,7 @@ button[disabled] {
 	);
 }
 
-.type--fire .poke__card-header {
+.type--fire .pokemons__card-header {
 	background: linear-gradient(
 		176.37deg,
 		#f96d6f -32.26%,
@@ -897,7 +891,7 @@ button[disabled] {
 	);
 }
 
-.type--water .poke__card-header {
+.type--water .pokemons__card-header {
 	background: linear-gradient(
 		179.57deg,
 		#133258 -70.14%,
@@ -906,7 +900,7 @@ button[disabled] {
 	);
 }
 
-.type--grass .poke__card-header {
+.type--grass .pokemons__card-header {
 	background: linear-gradient(
 		178.92deg,
 		#7ec6c5 0.92%,
@@ -915,7 +909,7 @@ button[disabled] {
 	);
 }
 
-.type--electric .poke__card-header {
+.type--electric .pokemons__card-header {
 	background: linear-gradient(
 		179.75deg,
 		#0c1395 -19.96%,
@@ -924,7 +918,7 @@ button[disabled] {
 	);
 }
 
-.type--psychic .poke__card-header {
+.type--psychic .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#e75480 -11.97%,
@@ -933,7 +927,7 @@ button[disabled] {
 	);
 }
 
-.type--ice .poke__card-header {
+.type--ice .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#6fbedf -11.97%,
@@ -942,7 +936,7 @@ button[disabled] {
 	);
 }
 
-.type--dragon .poke__card-header {
+.type--dragon .pokemons__card-header {
 	background: linear-gradient(
 		179.75deg,
 		#478a93 -19.96%,
@@ -951,7 +945,7 @@ button[disabled] {
 	);
 }
 
-.type--dark .poke__card-header {
+.type--dark .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#030706 -11.97%,
@@ -960,7 +954,7 @@ button[disabled] {
 	);
 }
 
-.type--fairy .poke__card-header {
+.type--fairy .pokemons__card-header {
 	background: linear-gradient(
 		179.75deg,
 		#971b45 -19.96%,
@@ -969,7 +963,7 @@ button[disabled] {
 	);
 }
 
-.type--stellar .poke__card-header {
+.type--stellar .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#4b0082 -11.97%,
@@ -978,7 +972,7 @@ button[disabled] {
 	);
 }
 
-.type--unknown .poke__card-header {
+.type--unknown .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#696969 -11.97%,
@@ -987,11 +981,23 @@ button[disabled] {
 	);
 }
 
-.type--shadow .poke__card-header {
+.type--shadow .pokemons__card-header {
 	background: linear-gradient(
 		177.03deg,
 		#2f4f4f -11.97%,
 		#556b2f 57.49%,
 		#8fbc8f 135.64%
 	);
+}
+
+.pokemons__card-header {
+	width: 110%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.pokemons__card_image {
+	border-radius: 0px;
+	width: 100%;
 }

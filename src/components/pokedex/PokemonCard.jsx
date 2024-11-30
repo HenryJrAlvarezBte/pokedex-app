@@ -45,7 +45,7 @@ function PokemonCard({ url }) {
 	return (
 		<Link to={`/pokedex/${pokemon?.name}`}>
 			<div className={`pokemons__card ${types[0] ? `type--${types[0]}` : ''}`}>
-				<div>
+				<div className="pokemons__card-header">
 					<img
 						className="pokemons__card_image"
 						src={pokemon?.sprites?.other?.dream_world?.front_default || ''}
