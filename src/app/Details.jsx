@@ -22,12 +22,12 @@ export function Details() {
 		<div>
 			<img
 				className="pokedex-title-details"
-				src="../../public/pokedex-title.png"
+				src="/pokedex-title.png"
 				alt="pokedex title"
 			/>
 			<img
 				className="pokedex-bar-details"
-				src="../../public/pokedex-bar.png"
+				src="/pokedex-bar.png"
 				alt="pokedex bar"
 			/>
 			<div className="pokemon-details-info">
