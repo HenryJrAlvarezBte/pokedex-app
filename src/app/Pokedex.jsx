@@ -117,14 +117,10 @@ export function Pokedex() {
 		<>
 			<img
 				className="pokedex-title"
-				src="../../public/pokedex-title.png"
+				src="/pokedex-title.png"
 				alt="pokedex title"
 			/>
-			<img
-				className="pokedex-bar"
-				src="../../public/pokedex-bar.png"
-				alt="pokedex bar"
-			/>
+			<img className="pokedex-bar" src="/pokedex-bar.png" alt="pokedex bar" />
 			<div className="pokedex__header">
 				<div className="welcome-message">
 					<h2 className="welcome-name">Bienvenido {name},</h2>

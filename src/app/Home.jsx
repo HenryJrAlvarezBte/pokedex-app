@@ -22,7 +22,7 @@ function Home() {
 		<>
 			<img
 				className="home-pokedex-title"
-				src="../../public/pokedex-title.png"
+				src="/pokedex-title.png"
 				alt="pokedex title"
 			/>
 			<div className="home">

@@ -254,20 +254,6 @@ p {
 	}
 }
 
-.pokemons__card {
-	background-color: #f8f8f8;
-	padding: 10px;
-	margin: 10px;
-	width: 300px;
-	height: 500px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	box-sizing: border-box;
-	overflow: hidden;
-}
-
 .pokemons__card p {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -990,14 +976,26 @@ button[disabled] {
 	);
 }
 
+.pokemons__card {
+	background-color: #f8f8f8;
+	margin: 10px;
+	width: 300px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 0px;
+}
+
 .pokemons__card-header {
-	width: 110%;
-	margin: 0;
-	padding: 0;
-	border: none;
+	width: 100%;
+	border-radius: 0;
 }
 
 .pokemons__card_image {
-	border-radius: 0px;
 	width: 100%;
+	height: auto;
 }
