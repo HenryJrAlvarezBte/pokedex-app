@@ -59,11 +59,7 @@ function Home() {
 						</>
 					)}
 				</div>
-				<img
-					className="img-home-bar"
-					src="../../public/home-bar.png"
-					alt="home bar"
-				/>
+				<img className="img-home-bar" src="/home-bar.png" alt="home bar" />
 			</div>
 		</>
 	);
